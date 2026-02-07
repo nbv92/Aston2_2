@@ -4,7 +4,6 @@ package Test;
 import org.example.dao.UserDAO;
 import org.example.dao.UserDAOImpl;
 import org.example.model.User;
-import org.example.util.HibernateUtil;
 import org.junit.jupiter.api.*;
 import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
@@ -12,6 +11,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -53,14 +53,13 @@ public class UserDAOImplIntegrationTest {
         user.setName("Alice");
         user.setEmail("alice@example.com");
         user.setAge(25);
-        user.setCreatedAt(LocalDateTime.now());
 
         userDAO.save(user);
         assertNotNull(user.getId());
 
-        User retrieved = userDAO.getById(user.getId());
-        assertEquals("Alice", retrieved.getName());
-        assertEquals("alice@example.com", retrieved.getEmail());
+        Optional<User> retrieved = userDAO.getById(user.getId());
+        assertEquals("Alice", retrieved.get().getName());
+        assertEquals("alice@example.com", retrieved.get().getEmail());
     }
 
     @Test
@@ -69,14 +68,12 @@ public class UserDAOImplIntegrationTest {
         user1.setName("Bob");
         user1.setEmail("bob@example.com");
         user1.setAge(30);
-        user1.setCreatedAt(LocalDateTime.now());
         userDAO.save(user1);
 
         User user2 = new User();
         user2.setName("Charlie");
         user2.setEmail("charlie@example.com");
         user2.setAge(35);
-        user2.setCreatedAt(LocalDateTime.now());
         userDAO.save(user2);
 
         List<User> users = userDAO.getAll();
@@ -89,14 +86,13 @@ public class UserDAOImplIntegrationTest {
         user.setName("David");
         user.setEmail("david@example.com");
         user.setAge(40);
-        user.setCreatedAt(LocalDateTime.now());
         userDAO.save(user);
 
         user.setName("David Updated");
         userDAO.update(user);
 
-        User updated = userDAO.getById(user.getId());
-        assertEquals("David Updated", updated.getName());
+        Optional<User> updated = userDAO.getById(user.getId());
+        assertEquals("David Updated", updated.get().getName());
     }
 
     @Test
@@ -105,13 +101,12 @@ public class UserDAOImplIntegrationTest {
         user.setName("Eve");
         user.setEmail("eve@example.com");
         user.setAge(28);
-        user.setCreatedAt(LocalDateTime.now());
         userDAO.save(user);
 
         Long id = user.getId();
         userDAO.delete(id);
 
-        User deleted = userDAO.getById(id);
+        Optional<User> deleted = userDAO.getById(id);
         assertNull(deleted);
     }
 }

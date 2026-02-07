@@ -5,6 +5,7 @@ import org.example.model.User;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class Main {
@@ -27,13 +28,12 @@ public class Main {
                     user.setEmail(scanner.next());
                     System.out.print("Введите возраст: ");
                     user.setAge(scanner.nextInt());
-                    user.setCreatedAt(LocalDateTime.now());
                     userDAO.save(user);
                     break;
                 case 2:
                     // Get user by ID
                     System.out.print("Введите ID пользователя: ");
-                    User foundUser = userDAO.getById(scanner.nextLong());
+                    Optional<User> foundUser = userDAO.getById(scanner.nextLong());
                     System.out.println(foundUser);
                     break;
                 case 3:
@@ -45,15 +45,15 @@ public class Main {
                     // Update user
                     System.out.print("Введите ID пользователя для обновления: ");
                     Long updateId = scanner.nextLong();
-                    User updateUser = userDAO.getById(updateId);
-                    if (updateUser != null) {
+                    Optional<User> updateUser = userDAO.getById(updateId);
+                    if (updateUser.isPresent()) {
                         System.out.print("Новое имя: ");
-                        updateUser.setName(scanner.next());
+                        updateUser.get().setName(scanner.next());
                         System.out.print("Новый email: ");
-                        updateUser.setEmail(scanner.next());
+                        updateUser.get().setEmail(scanner.next());
                         System.out.print("Новый возраст: ");
-                        updateUser.setAge(scanner.nextInt());
-                        userDAO.update(updateUser);
+                        updateUser.get().setAge(scanner.nextInt());
+                        userDAO.update(updateUser.orElse(null));
                     }
                     break;
                 case 5:

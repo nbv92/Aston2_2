@@ -7,6 +7,7 @@ import org.hibernate.Transaction;
 
 
 import java.util.List;
+import java.util.Optional;
 
 public class UserDAOImpl implements UserDAO {
     @Override
@@ -23,9 +24,9 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public User getById(Long id) {
+    public Optional<User> getById(Long id) {
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
-            return session.get(User.class, id);
+            return Optional.ofNullable(session.get(User.class, id));
         }
     }
 
