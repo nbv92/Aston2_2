@@ -26,6 +26,7 @@ public final class UserMapper {
         user.setAge(dto.age());
     }
 
+
     public static UserResponseDto toDto(User user) {
         if (user == null) return null;
         return new UserResponseDto(user.getId(), user.getName(), user.getEmail(), user.getAge());
