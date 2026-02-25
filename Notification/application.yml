@@ -1,22 +1,18 @@
-server:
-  port: 8083
-
 spring:
-  application:
-    name: notification-service
-
-  mail:
-    host: smtp.example.com
-    port: 587
-    username: your_user
-    password: your_password
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: notification-service
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
     properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
+      spring.json.trusted.packages: "*"
+      # если продюсер НЕ кладёт type headers (часто так и есть),
+      # укажи тип по умолчанию:
+      spring.json.value.default.type: your.pkg.messaging.dto.SendMailEvent
 
 app:
-  mail:
-    from: no-reply@example.com
+  kafka:
+    topics:
+      send-mail: send-mail
