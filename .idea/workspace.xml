@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="commit 25/02/2026">
-      <change afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailSendConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/dto/SendMailEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/notification/LoggingMailNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification/src/test/java/MailControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification/src/test/java/MailSendConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification/src/test/java/OpenApiIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailSendConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailSendConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/dto/SendMailEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/dto/SendMailEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772045880813</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit 25/02/2026">
+      <option name="closed" value="true" />
+      <created>1772048425292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772048425292</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -6,13 +6,15 @@ spring:
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-    properties:
-      spring.json.trusted.packages: "*"
-      # если продюсер НЕ кладёт type headers (часто так и есть),
-      # укажи тип по умолчанию:
-      spring.json.value.default.type: your.pkg.messaging.dto.SendMailEvent
+      properties:
+        spring.json.trusted.packages: "org.example.notification.api.dto"
+        spring.json.value.default.type: "org.example.notification.api.dto.SendMailEvent"
 
 app:
   kafka:
     topics:
       send-mail: send-mail
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
