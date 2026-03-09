@@ -86,15 +86,19 @@ public class UserServiceImpl implements UserService {
                 .orElseThrow(() -> new UserNotFoundException(id));
 
         String email = user.getEmail();
-        userRepository.delete(user);publishAfterCommit(new UserEvent(UserEvent.Operation.DELETED, email));
+        userRepository.delete(user);
+
+        publishAfterCommit(new UserEvent(UserEvent.Operation.DELETED, email));
     }
 
     private void publishAfterCommit(UserEvent event) {
+        // Если транзакции нет — публикуем сразу
         if (!TransactionSynchronizationManager.isActualTransactionActive()) {
             publisher.publish(event);
             return;
         }
 
+        // Если транзакция есть — регистрируем коллбек на момент AFTER_COMMIT
         TransactionSynchronizationManager.registerSynchronization(new TransactionSynchronization() {
             @Override
             public void afterCommit() {
