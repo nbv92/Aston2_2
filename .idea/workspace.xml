@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="commit 15/03/2026&#10;part 1">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="commit 15/03/2026&#10;part 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773575847493</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit 15/03/2026&#10;part 2">
+      <option name="closed" value="true" />
+      <created>1773576373571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1773576373571</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +277,8 @@
     <MESSAGE value="commit 1/03/2026" />
     <MESSAGE value="commit 9/03/2026" />
     <MESSAGE value="commit 15/03/2026&#10;part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 15/03/2026&#10;part 1" />
+    <MESSAGE value="commit 15/03/2026&#10;part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 15/03/2026&#10;part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
