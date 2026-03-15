@@ -4,7 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="commit 9/03/2026" />
+    <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="commit 9/03/2026">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/api/MailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/MailSendConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/api/MailSendConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/dto/SendMailEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/api/dto/SendMailEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/api/dto/SendMailRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/api/dto/SendMailRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/main/java/org/example/notification/LoggingMailNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/MailNotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/test/java/MailControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/MailControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/test/java/MailSendConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/MailSendConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notification/src/test/java/OpenApiIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/OpenApiIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/UserDAOImplIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/UserDAOImplIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/controller/UserControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/controller/UserControllerIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/kafka/NotificationApiIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/kafka/NotificationApiIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/kafka/NotificationKafkaIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/kafka/NotificationKafkaIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/SendEmailRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/dto/SendEmailRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/UserRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/dto/UserRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/UserResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/dto/UserResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/event/UserEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/event/UserEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/event/UserLifecycleEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/event/UserLifecycleEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/UserEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/kafka/UserEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/UserLifecycleEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/kafka/UserLifecycleEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/UserLifecycleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/kafka/UserLifecycleListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/service/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/example/service/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +69,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -69,35 +124,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.UserDAOImplIntegrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#5 on fourCommit&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alex/programms/ibs/Working Project&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Пол/IdeaProjects/Aston2_2/Notification/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.UserDAOImplIntegrationTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#5 on fourCommit",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alex/programms/ibs/Working Project",
+    "onboarding.tips.debug.path": "C:/Users/Пол/IdeaProjects/Aston2_2/config-server/src/main/java/com/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src\main\resources" />
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src\main\java\org\example" />
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src" />
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src\main\java\org\example\dto" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src\test\java" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src\main\java\org\example\service" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src\main\resources" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\main" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example.DAO" />
@@ -106,7 +164,7 @@
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Application" />
-      <module name="user-service" />
+      <module name="my-system" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -237,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773054133893</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit 9/03/2026">
+      <option name="closed" value="true" />
+      <created>1773054227109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773054227109</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,5 +315,21 @@
     <MESSAGE value="commit 1/03/2026" />
     <MESSAGE value="commit 9/03/2026" />
     <option name="LAST_COMMIT_MESSAGE" value="commit 9/03/2026" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

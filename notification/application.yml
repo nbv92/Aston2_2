@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: notification-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: user
+    password: pass
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: ${spring.application.name}
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    producer:
+      properties:
+        spring.json.add.type.headers: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+app:
+  kafka:
+    topics:
+      user-events: user.events
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
