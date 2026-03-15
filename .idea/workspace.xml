@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="Перевод на спринг со всеми вытекающими.">
-      <change afterPath="$PROJECT_DIR$/src/Test/mapper/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mapper/UserMapper.java" afterDir="false" />
-    </list>
+    <list default="true" id="99c8049c-f66b-4b6d-9776-f8ca4ce8e61f" name="Changes" comment="commit 15/03/2026&#10;part 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +15,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -38,7 +35,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="secondCommit" />
+        <entry key="$PROJECT_DIR$" value="threeCommit" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,31 +70,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserDAOImplIntegrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on threeCommit&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alex/programms/ibs/Working Project&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.UserDAOImplIntegrationTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#5 on fourCommit",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alex/programms/ibs/Working Project",
+    "onboarding.tips.debug.path": "C:/Users/Пол/IdeaProjects/Aston2_2/config-server/src/main/java/com/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src\main\resources" />
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src\main\java\org\example" />
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src" />
-      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\src\main\java\org\example\dto" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src\test\java" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src\main\java\org\example\service" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src\main\resources" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\src" />
+      <recent name="C:\Users\Пол\IdeaProjects\Aston2_2\user-service\main" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example.DAO" />
@@ -106,7 +110,7 @@
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Application" />
-      <module name="user-service" />
+      <module name="my-system" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -119,6 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -179,7 +185,87 @@
       <option name="project" value="LOCAL" />
       <updated>1771509318033</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Перевод на спринг со всеми вытекающими.">
+      <option name="closed" value="true" />
+      <created>1771509836775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771509836775</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit 25/02/2026">
+      <option name="closed" value="true" />
+      <created>1771993969133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771993969133</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit 25/02/2026">
+      <option name="closed" value="true" />
+      <created>1772045880813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772045880813</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit 25/02/2026">
+      <option name="closed" value="true" />
+      <created>1772048425292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772048425292</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit 25/02/2026">
+      <option name="closed" value="true" />
+      <created>1772376097419</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772376097419</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit 1/03/2026">
+      <option name="closed" value="true" />
+      <created>1772376137024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772376137024</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit 9/03/2026">
+      <option name="closed" value="true" />
+      <created>1773054133893</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1773054133893</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit 9/03/2026">
+      <option name="closed" value="true" />
+      <created>1773054227109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773054227109</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit 15/03/2026&#10;part 1">
+      <option name="closed" value="true" />
+      <created>1773575847493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1773575847493</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit 15/03/2026&#10;part 2">
+      <option name="closed" value="true" />
+      <created>1773576373571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1773576373571</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +273,27 @@
     <MESSAGE value="фикс для 1 задания, а именно&#10;- избежание ошибок с null возвращает Optional в UserDAO&#10;- удаление set в User&#10;- Добавление shutdown в HibernateUtil и другого" />
     <MESSAGE value="Добавление тестов Main" />
     <MESSAGE value="Перевод на спринг со всеми вытекающими." />
-    <option name="LAST_COMMIT_MESSAGE" value="Перевод на спринг со всеми вытекающими." />
+    <MESSAGE value="commit 25/02/2026" />
+    <MESSAGE value="commit 1/03/2026" />
+    <MESSAGE value="commit 9/03/2026" />
+    <MESSAGE value="commit 15/03/2026&#10;part 1" />
+    <MESSAGE value="commit 15/03/2026&#10;part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 15/03/2026&#10;part 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
